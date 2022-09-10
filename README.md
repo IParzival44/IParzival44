@@ -1,4 +1,11 @@
-- 👋 Hi, I’m @IParzival44
+- 👋 Hi, I’m @IParzival44var myVar;  
+ function myFunction() {  
+  myVar = setTimeout(showPage, 1000);  
+ }  
+ function showPage() {  
+  document.getElementById("loader").style.display = "none";  
+  document.getElementById("myDiv").style.display = "block";  
+ }  
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
