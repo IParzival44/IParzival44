@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @IParzival44
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+@media screen and (max-width: 768px) {
+   .container:before {
+      left: 8px;
+      width: 2px;
+   }
+   .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   .timeline-block-right {
+      float: none;
+   }
 
-<!---
-IParzival44/IParzival44 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+   .timeline-block-left {
+      float: none;
+      direction: ltr;
+   }
+}
