@@ -1,10 +1,14 @@
-- 👋 Hi, I’m @IParzival44
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-IParzival44/IParzival44 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<div class="main">  
+   <div class="balls balls-1">  
+           <div class="ball ball--1"></div>  
+     <div class="ball ball--2"></div>  
+     <div class="ball ball--3"></div>  
+     <div class="ball ball--4"></div>  
+   </div>  
+   <div class="balls balls-2">  
+           <div class="ball ball--1"></div>  
+     <div class="ball ball--2"></div>  
+     <div class="ball ball--3"></div>  
+     <div class="ball ball--4"></div>  
+   </div>  
+ </div>  
