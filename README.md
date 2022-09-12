@@ -1,10 +1,55 @@
-- 👋 Hi, I’m @IParzival44
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<html lang="en">
 
-<!---
-IParzival44/IParzival44 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Font Awesome Icons  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous" />
+    
+        <!-- Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+        <title>Tip Calculator using JavaScript - @code.scientist x @codingtorque</title>
+    </head>
+    
+    <body>
+        <div class="calculator">
+            <label for="totalBill">Bill</label>
+            <input type="number" oninput="calculateTip()" onchange="calculateTip()" id="totalBill"
+                placeholder="Enter Your Bill">
+            <label for="tipPercentage" style="display: flex; justify-content:space-between;">
+                <span>Tip %</span>
+                <span id="tipPercentageText">15%</span>
+            </label>
+            <input type="range" oninput="calculateTip()" onchange="calculateTip()" id="tipPercentage">
+            <label for="numOfPerson" style="display: flex; justify-content:space-between;">
+                <span>
+                    No. of people
+                </span>
+                <span id="numOfPersonText">15</span>
+            </label>
+            <input type="range" oninput="calculateTip()" onchange="calculateTip()" id="numOfPerson">
+            <div class="result" id="result">
+                <h5 style="margin: 8px 0;display: flex; justify-content:space-between;">
+                    <span>Tip</span>
+                    <span style="font-size:1.2rem;">__.__</spam>
+                </h5>
+                <h5 style="margin: 8px 0;display: flex; justify-content:space-between;">
+                    <span>Total</span>
+                    <span style="font-size:1.2rem;">__.__</spam>
+                </h5>
+                <h5 style="margin: 8px 0;display: flex; justify-content:space-between;">
+                    <span>Each Person Pay</span>
+                    <span style="font-size:1.2rem;">__.__</spam>
+                </h5>
+            </div>
+        </div>
+    </body>
+    
+    </html>
